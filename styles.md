@@ -66,13 +66,13 @@ To Do:
 
 Here are the message boxes with the optional close button enabled:
 
-<p class="message"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Message:</b> This is a sentence inside of a message box.</small></p>
-<p class="green"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Success!</b> This is a sentence inside of a message box.</small></p>
-<p class="yellow"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Caution!</b> This is a sentence inside of a message box.</small></p>
-<p class="orange"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Warning!</b> This is a sentence inside of a message box.</small></p>
-<p class="red"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Danger!</b> This is a sentence inside of a message box.</small></p>
-<p class="purple"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Please Note:</b> This is a sentence inside of a message box.</small></p>
-<p class="blue"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Information:</b> This is a sentence inside of a message box.</small></p>
+<p class="box"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Message:</b> This is a sentence inside of a message box.</small></p>
+<p class="box-green"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Success!</b> This is a sentence inside of a message box.</small></p>
+<p class="box-yellow"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Caution!</b> This is a sentence inside of a message box.</small></p>
+<p class="box-orange"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Warning!</b> This is a sentence inside of a message box.</small></p>
+<p class="box-red"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Danger!</b> This is a sentence inside of a message box.</small></p>
+<p class="box-purple"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Note:</b> This is a sentence inside of a message box.</small></p>
+<p class="box-blue"><small><b>Information:</b> This is a sentence inside of a message box.</small></p>
 
 Try to only eat an entire bag of candy once a ~~week~~ month.
 
@@ -90,7 +90,16 @@ test 4, 6   =>  4,6,10
 test 3, 4, 6   =>  3,4,6
 {% endhighlight %}
 
- 
+{% highlight html %}
+<html>
+  <body><p>This is HTML!</p></body>
+</html>
+{% endhighlight %}
+
+```python
+def example():
+  print("This is Python in fenced code block")
+```
 
 ***
 

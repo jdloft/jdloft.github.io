@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<p class="message">
+<p class="box">
   You can rename or delete this example page as you see necessary.
 </p>
 
