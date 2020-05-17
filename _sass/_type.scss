@@ -5,23 +5,23 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
-  color: #55555c;
+  color: $midnight-header-light;
   position: relative;
   
   @media (prefers-color-scheme: dark) {
-    color: #d0f6db;
+    color: $midnight-header-dark;
 	}
 }
 
 h2::before,h4::before,h5::before,h6::before {
     content: "#";
-    color: #55555c;
+    color: $midnight-accent-light;
     left: -1.2em;
     top: 0;
 	position: absolute;
     
   @media (prefers-color-scheme: dark) {
-    color: #d0f6db;
+    color: $midnight-accent-dark;
 	}
 }
 
@@ -78,11 +78,11 @@ abbr {
   font-size: 85%;
   font-weight: bold;
   opacity: .5;
-  color: $body-color;
+  color: $midnight-text-color;
   text-transform: uppercase;
 
 @media (prefers-color-scheme: dark) {
-  color: $body-color-dark;
+  color: $midnight-text-color-dark;
   }
 
   &[title] {
@@ -92,10 +92,10 @@ abbr {
 }
 
 span.link-arrow {
-	color: $light;
+	color: #989898;
 
 @media (prefers-color-scheme: dark) {
-    color: $dark;
+    color: #989898;
 	}
 }
 
@@ -128,12 +128,12 @@ figure {
 
 mark {
     background: #cefce8;
-    color: $body-color;
+    color: $midnight-text-color;
 	padding: 2px 2px;
 	
   @media (prefers-color-scheme: dark) {
     background: #0fb47c;
-    color: $body-color-dark;
+    color: $midnight-text-color-dark;
     }
 }
 
@@ -146,13 +146,13 @@ a[href^="#fn:"] {
   margin: 0 0.1em 0 0.2em;
   text-align: center;
   background: #eee;
-  color: $light;
+  color: $midnight-accent-light;
   border: 1px solid #eee;
   border-radius: 1em;
   vertical-align: middle;
   
 @media (prefers-color-scheme: dark) {
-    color: $dark;
+    color: $midnight-accent-dark;
 	background: #2c2c2c;
 	border: 1px solid #2c2c2c;
 	}
@@ -174,11 +174,11 @@ a[href^="#fnref:"] {
 :target {
 	padding: 5px;
     background: #eee;
-    border: solid 1px $light;
+    border: solid 1px $midnight-accent-light;
 
 @media (prefers-color-scheme: dark) {
 	background: #2c2c2c;
-	border: solid 1px $dark;
+	border: solid 1px $midnight-accent-dark;
 	}
   }
 }

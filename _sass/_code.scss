@@ -6,12 +6,12 @@
 	font-size: 100%;
 	padding: 3px 4px;
     background-color: #e0e0e0;
-    color: $code-light;
+    color: $midnight-code-light;
 	white-space: nowrap;
 	
 @media (prefers-color-scheme: dark) {
     background-color: #212c2d;
-	color: $code-dark;
+	color: $midnight-code-dark;
 	}
 }
 
@@ -85,12 +85,12 @@ figure.highlight, div.highlight {
 
     pre {
         background-color: $code-bg;
-		border: 1px solid $code-light;
+		border: 1px solid $midnight-code-light;
 	    border-radius: 15px;
 		box-shadow: 0 4px 30px rgba(0,0,0,.4);
 		
 		@media (prefers-color-scheme: dark) {
-		border: 1px solid $code-dark;
+		border: 1px solid $midnight-code-dark;
 		}
 		
         code {
@@ -113,7 +113,7 @@ figure.highlight, div.highlight {
 				text-transform: uppercase;
 				font-weight: bold;
 
-                border: 1px solid $code-light;
+                border: 1px solid $midnight-code-light;
                 border-top-left-radius: 15px;
                 border-top-right-radius: 15px;
                 border-bottom-left-radius: 15px;
@@ -122,12 +122,12 @@ figure.highlight, div.highlight {
                 min-width: 30px;
                 text-align: center;
 
-                color: $code-light;
+                color: $midnight-code-light;
                 background-color: $code-bg;
 				
 				@media (prefers-color-scheme: dark) {
-				border: 1px solid $code-dark;
-				color: $code-dark;
+				border: 1px solid $midnight-code-dark;
+				color: $midnight-code-dark;
 				}
 				
 				@mixin media-query($device) {

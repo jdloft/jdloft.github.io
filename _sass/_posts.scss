@@ -76,10 +76,10 @@ figure {
 .page-title,
 .post-title,
 .post-title a {
-  color: $body-color;
+  color: $midnight-text-color;
   
 @media (prefers-color-scheme: dark) {
-  color: $body-color-dark;
+  color: $midnight-text-color-dark;
   }
 }
 
@@ -93,10 +93,10 @@ figure {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: $body-color;
+  color: $midnight-text-color;
   
 @media (prefers-color-scheme: dark) {
-  color: $body-color-dark;
+  color: $midnight-text-color-dark;
   }
 }
 
@@ -105,10 +105,10 @@ figure {
   font-size: 90%;
   margin-top: -.9rem;
   margin-bottom: 1.5rem;
-  color: $body-color;
+  color: $midnight-text-color;
   
 @media (prefers-color-scheme: dark) {
-  color: $body-color-dark;
+  color: $midnight-text-color-dark;
   }
 }
 
@@ -118,10 +118,10 @@ figure {
   margin-top: -.9rem;
   margin-bottom: 1.5rem;
   opacity: .5;
-  color: $body-color;
+  color: $midnight-text-color;
 
 @media (prefers-color-scheme: dark) {
-  color: $body-color-dark;
+  color: $midnight-text-color-dark;
   }
 }
 
@@ -130,10 +130,10 @@ figure {
   padding-bottom: 4px;
   padding-right: 8px;
   border-radius: 5px;
-  color: $body-color;
+  color: $midnight-text-color;
   
   @media (prefers-color-scheme: dark) {
-	color: $code-dark;
+	color: $midnight-code-dark;
 	}
 }
 
@@ -186,11 +186,11 @@ figure {
     }
 
     a:hover {
-      color: $light;
+      color: $midnight-accent-light;
       text-decoration: none;
 	 
     @media (prefers-color-scheme: dark) {
-	  color: $dark;
+	  color: $midnight-accent-dark;
       }
 
       small {

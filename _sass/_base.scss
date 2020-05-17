@@ -23,30 +23,30 @@ html {
 }
 
 body {
-  color: $body-color;
-  background-color: $body-bg;
+  color: $midnight-text-color;
+  background-color: $midnight-body-bg;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 	  
 @media (prefers-color-scheme: dark) {
-  color: $body-color-dark;
-  background-color: $body-bg-dark;
+  color: $midnight-text-color-dark;
+  background-color: $midnight-body-bg-dark;
   }
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
 a {
-  color: $light;
+  color: $midnight-accent-light;
   text-decoration: none;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
     text-decoration: none;
-	color: $light;
+	color: $midnight-accent-light;
 	
 	@media (prefers-color-scheme: dark) {
-    color: $dark;
+    color: $midnight-accent-dark;
     }
   }
 
@@ -55,7 +55,7 @@ a {
   }
   
 @media (prefers-color-scheme: dark) {
-  color: $dark;
+  color: $midnight-accent-dark;
   }
 }
 
