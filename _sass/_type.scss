@@ -142,13 +142,8 @@ a[href^="#fn:"] {
   display: inline-block;
   position: relative;
   font-weight: bold;
-  min-width: 35px;
-  margin: 0 0.1em 0 0.2em;
   text-align: center;
-  background: #eee;
   color: $midnight-accent-light;
-  border: 1px solid #eee;
-  border-radius: 1em;
   vertical-align: middle;
   
 @media (prefers-color-scheme: dark) {
