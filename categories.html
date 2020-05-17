@@ -5,11 +5,11 @@ title: Categories
 ---
 
 <div>
-{% assign categories_sorted = site.categories | sort %}
-{% for category in categories_sorted %}
+  {% assign categories_sorted = site.categories | sort %}
+  {% for category in categories_sorted %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
-	
+
     <div id="#{{ category_name | slugize }}"></div>
 
     <h3 class="category-head"><small>{{ category_name }}</small></h3>
@@ -21,5 +21,5 @@ title: Categories
     </article>
     {% endfor %}
   </div>
-{% endfor %}
+  {% endfor %}
 </div>
