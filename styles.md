@@ -42,7 +42,7 @@ Here are the buttons whose class names and colors can be easily customized:
 
 <span class="removed">removed</span> This span class is named "removed" but you can change it.
 
-<span class="improved">improved</span> This span class is named "improved" but you can change it.
+<span class="updated">updated</span> This span class is named "updated" but you can change it.
 
 <span class="fixed">fixed</span> This span class is named "fixed" but you can change it.
 
