@@ -1,0 +1,43 @@
+Tags
+
+<span class="added">added</span> This span class is named "added" but you can change it.
+
+<span class="removed">removed</span> This span class is named "removed" but you can change it.
+
+<span class="updated">updated</span> This span class is named "updated" but you can change it.
+
+<span class="fixed">fixed</span> This span class is named "fixed" but you can change it.
+
+<span class="soon">coming soon</span> This span class is named "soon" but you can change it.
+
+Boxes
+
+<p class="box"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Message:</b> This is a sentence inside of a message box.</small></p>
+<p class="box-green"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Success!</b> This is a sentence inside of a message box.</small></p>
+<p class="box-yellow"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Caution!</b> This is a sentence inside of a message box.</small></p>
+<p class="box-orange"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Warning!</b> This is a sentence inside of a message box.</small></p>
+<p class="box-red"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Danger!</b> This is a sentence inside of a message box.</small></p>
+<p class="box-purple"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><small><b>Note:</b> This is a sentence inside of a message box.</small></p>
+<p class="box-blue"><small><b>Information:</b> This is a sentence inside of a message box.</small></p>
+
+Image
+
+<figure class="screenshot">
+  <div class="image-container">
+    <img src="/assets/sample.jpg" alt="Alt text">
+    <span class="image-attribution">Image credit: <a href="http://site.for.attr"><strong>Site</strong></a></span>
+  </div>
+  <figcaption>This is a caption.</figcaption>
+</figure>
+
+Front matter
+
+---
+layout: post
+title: "Title"
+date: 2020-01-32 00:00:00
+categories: [Announcements]
+tags: [releases]
+link: http://external.page
+last_modified_at: 2020-01-01
+---

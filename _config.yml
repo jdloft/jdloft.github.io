@@ -24,6 +24,7 @@ exclude:
   - Gemfile.lock
   - LICENSE.md
   - README.md
+  - snippets.txt
 
 sass:
   sass_dir: _sass
