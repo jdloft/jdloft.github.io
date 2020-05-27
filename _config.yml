@@ -18,7 +18,6 @@ plugins:
 
 # Optimize Jekyll
 exclude:
-  - .editorconfig
   - .git
   - .jekyll-cache
   - Gemfile
