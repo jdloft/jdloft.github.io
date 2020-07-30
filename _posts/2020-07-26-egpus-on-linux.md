@@ -66,7 +66,7 @@ Wayland is currently hard coded to prefer hardware rendering devices, then the d
 
 There is [this pull request](https://gitlab.gnome.org/GNOME/mutter/-/merge_requests/1057) that is a bit of a hack but that would prioritize any external GPU that is hardware accelerated and has an output device attached. It has some problems, as you can see from the comments, but most all of them have to do with hotplugging. And yes, hotplugging is a very big problem. Everything blows up if you unplug the GPU.
 
-[There may be a udev flag](https://gitlab.gnome.org/GNOME/mutter/-/issues/831) added that would allow for prioritizing a certain GPU without changing the underlying, hardcoded logic for everyone.
+[There may be a udev flag](https://gitlab.gnome.org/GNOME/mutter/-/issues/831) added that would allow for prioritizing a certain GPU without changing the underlying hardcoded logic for everyone.
 
 A solution mentioned in a few of these eGPU-related bug reports, would be to render each application on the GPU that the application shows up on. I don't think this would be ideal; doing so would introduce odd edge cases. What would happen if an application is being dragged between displays? Would it freeze while the buffer is copied to another GPU? What about a window that is partially rendered on two GPUs?
 
