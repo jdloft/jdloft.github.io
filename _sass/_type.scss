@@ -18,20 +18,21 @@ h6 {
   }
 }
 
-h2::before,
-h4::before,
-h5::before,
-h6::before {
-  content: "#";
-  color: $midnight-accent-light;
-  left: -1.2em;
-  top: 0;
-  position: absolute;
+// Disabled header glyph
+// h2::before,
+// h4::before,
+// h5::before,
+// h6::before {
+//   content: "#";
+//   color: $midnight-accent-light;
+//   left: -1.2em;
+//   top: 0;
+//   position: absolute;
 
-  @media (prefers-color-scheme: dark) {
-    color: $midnight-accent-dark;
-  }
-}
+//   @media (prefers-color-scheme: dark) {
+//     color: $midnight-accent-dark;
+//   }
+// }
 
 h1 {
   font-size: 2rem;
