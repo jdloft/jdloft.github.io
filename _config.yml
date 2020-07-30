@@ -2,7 +2,7 @@
 title: jdloft.com
 # tagline: a dark mode friendly Jekyll theme
 url: https://jdloft.com
-paginate: 1
+paginate: 5
 baseurl: ""
 permalink: :title/
 
