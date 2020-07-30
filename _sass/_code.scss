@@ -111,19 +111,13 @@ div.highlight {
       &[data-lang]::before {
         content: attr(data-lang);
         position: absolute;
-        right: 20px; // 15 + 5
 
         font-size: 16px;
-        top: -12px;
-        padding: 0px 7px;
+        top: 5px;
+        right: 5px;
+        line-height: 1;
         text-transform: uppercase;
         font-weight: bold;
-
-        border: 1px solid $midnight-accent-light;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
 
         min-width: 30px;
         text-align: center;
@@ -132,7 +126,6 @@ div.highlight {
         background-color: $midnight-code-bg;
 
         @media (prefers-color-scheme: dark) {
-          border: 1px solid $midnight-accent-dark;
           color: $midnight-accent-dark;
           background-color: $midnight-code-bg-dark;
         }
