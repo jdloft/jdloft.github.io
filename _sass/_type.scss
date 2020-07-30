@@ -175,6 +175,7 @@ a[href^="#fnref:"] {
 .footnotes {
   margin-top: 2rem;
   font-size: 80%;
+  overflow-wrap: break-word;
 
   :target {
     padding: 5px;
