@@ -2,15 +2,15 @@
 
 /* Applies to inline `code blocks` */
 .highlighter-rouge {
-  font-family: $root-font-family;
-  font-size: 100%;
+  font-family: $code-font-family;
+  font-size: 80%;
   padding: 3px 4px;
-  background-color: #e0e0e0;
+  background-color: $midnight-code-bg;
   color: $midnight-code-light;
   white-space: nowrap;
 
   @media (prefers-color-scheme: dark) {
-    background-color: #212c2d;
+    background-color: $midnight-code-bg-dark;
     color: $midnight-code-dark;
   }
 }
@@ -86,18 +86,22 @@ div.highlight {
   position: relative;
 
   pre {
-    background-color: $code-bg;
-    border: 1px solid $midnight-code-light;
-    border-radius: 15px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    background-color: $midnight-code-bg;
+    border: 1px solid $midnight-accent-light;
 
     @media (prefers-color-scheme: dark) {
-      border: 1px solid $midnight-code-dark;
+      background-color: $midnight-code-bg-dark;
+      border: 1px solid $midnight-accent-dark;
     }
 
     code {
-      background-color: $code-bg;
-      color: #bdbdb3;
+      background-color: $midnight-code-bg;
+      color: $midnight-code-light;
+
+      @media (prefers-color-scheme: dark) {
+        background-color: $midnight-code-bg-dark;
+        color: $midnight-code-dark;
+      }
 
       counter-reset: code;
       display: block;
@@ -115,7 +119,7 @@ div.highlight {
         text-transform: uppercase;
         font-weight: bold;
 
-        border: 1px solid $midnight-code-light;
+        border: 1px solid $midnight-accent-light;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         border-bottom-left-radius: 15px;
@@ -124,12 +128,13 @@ div.highlight {
         min-width: 30px;
         text-align: center;
 
-        color: $midnight-code-light;
-        background-color: $code-bg;
+        color: $midnight-accent-light;
+        background-color: $midnight-code-bg;
 
         @media (prefers-color-scheme: dark) {
-          border: 1px solid $midnight-code-dark;
-          color: $midnight-code-dark;
+          border: 1px solid $midnight-accent-dark;
+          color: $midnight-accent-dark;
+          background-color: $midnight-code-bg-dark;
         }
 
         @mixin media-query($device) {

@@ -7,7 +7,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.5rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
   color: $midnight-header-light;
@@ -34,11 +34,11 @@ h6::before {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 h2 {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 1.5rem;
 }
 
@@ -113,7 +113,7 @@ span.link-arrow {
 
 blockquote {
   width: 100%;
-  padding: 0.25em 90px 0.25em 25px;
+  padding: 0.25em 30px 0.25em 25px;
   margin: 30px auto;
   font-style: italic;
   position: relative;
@@ -129,7 +129,7 @@ blockquote {
   }
 
   @media (min-width: 30em) {
-    padding-right: 5rem;
+    padding-right: 2rem;
     padding-left: 1.25rem;
   }
 }
