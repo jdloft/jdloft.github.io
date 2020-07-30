@@ -9,6 +9,10 @@
   position: fixed;
   overflow-x: hidden;
   line-height: 1.25;
+
+  @media screen and (max-width: 1150px) {
+    position: static;
+  }
 }
 
 .masthead-title {
